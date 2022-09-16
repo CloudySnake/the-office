@@ -5,6 +5,7 @@
 
 Welcome to The Office's documentation!
 ======================================
+Don't you lot have work to do?
 
 .. toctree::
    :maxdepth: 2
