@@ -4,17 +4,15 @@ JOB_TITLES = ["SALES_REP", "REGIONAL_MANAGER", "MANAGER", "HR", "ACCOUNTING"]
 
 
 class Employee:
-    """
-    Employee class for maintaining employee information.
-    """
+    """Employee class for maintaining employee information."""
     def __init__(self, name: str, job_title: str):
         self.name = name
         self.job_title = job_title
         self.employee_id = uuid.uuid4()
 
     def update_contact_info(self, name: str) -> str:
-        """
-        Update the employee's contact info.
+        """Update the employee's contact info.
+
         Args:
             name (str): The employee's new name.
 
@@ -26,8 +24,8 @@ class Employee:
         return past_name
 
     def promote_employee(self, job_title: str) -> None:
-        """
-        Promote an employee to a new job title.
+        """Promote an employee to a new job title.
+
         Args:
             job_title (str): The employee's new job title.
 

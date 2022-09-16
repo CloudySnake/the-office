@@ -10,6 +10,8 @@ Welcome to The Office's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+   modules
+
 Workspace
 ---------
 .. image:: _static/desk.webp
